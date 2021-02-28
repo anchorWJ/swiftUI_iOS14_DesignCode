@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  Shared
 //
-//  Created by w simple on 2021/02/07.
+//  Created by w simple on 2021/02/28.
 //
 
 import CoreData
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "SwiftUI")
+        container = NSPersistentContainer(name: "SwiftUI_DesignCode")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

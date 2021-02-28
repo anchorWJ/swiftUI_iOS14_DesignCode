@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D50DE086E10296E79384AA5A22664B5"
-               BuildableName = "Pods_SwiftUI__macOS_.framework"
-               BlueprintName = "Pods-SwiftUI (macOS)"
+               BlueprintIdentifier = "5B7274DEB8D0CBBE92CBA2B94E517232"
+               BuildableName = "Pods_SwiftUI_DesignCode__macOS_.framework"
+               BlueprintName = "Pods-SwiftUI DesignCode (macOS)"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

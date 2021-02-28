@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SwiftUI__iOS_VersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SwiftUI__iOS_VersionString[];
+FOUNDATION_EXPORT double Pods_SwiftUI_DesignCode__iOS_VersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SwiftUI_DesignCode__iOS_VersionString[];
 
