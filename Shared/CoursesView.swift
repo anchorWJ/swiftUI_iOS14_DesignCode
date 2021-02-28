@@ -9,10 +9,11 @@ import SwiftUI
 
 struct CoursesView: View {
     var body: some View {
-        List(0 ..< 10) { item in
+        List(0 ..< 30) { item in
             CourseRow()
         }
         .listStyle(InsetGroupedListStyle())
+        .navigationTitle("Courses")
     }
 }
 
