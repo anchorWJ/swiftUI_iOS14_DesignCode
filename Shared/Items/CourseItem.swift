@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  Shared
+//  CourseItem.swift
+//  SwiftUI DesignCode
 //
-//  Created by w simple on 2021/02/28.
+//  Created by w simple on 2021/03/03.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct CourseItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -20,7 +20,7 @@ struct ContentView: View {
             }
             Spacer()
             Text("SwiftUI for iOS 14")
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
                 .foregroundColor(Color.white)
             Text("20 Sections")
                 .font(.footnote)
@@ -29,17 +29,12 @@ struct ContentView: View {
         .padding(.all)
         .background(Color.blue)
         .cornerRadius(20.0)
-        .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        .shadow(radius: 10)
     }
-    
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CourseItem_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-            ContentView()
-                .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/))
-        }
+        CourseItem()
     }
 }

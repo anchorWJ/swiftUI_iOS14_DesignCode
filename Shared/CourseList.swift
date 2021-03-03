@@ -1,5 +1,5 @@
 //
-//  CoursesView.swift
+//  CourseList.swift
 //  SwiftUI DesignCode
 //
 //  Created by w simple on 2021/02/28.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CoursesView: View {
+struct CourseList: View {
     @ViewBuilder
     var body: some View {
         #if os(iOS)
@@ -26,8 +26,8 @@ struct CoursesView: View {
     }
 }
 
-struct CoursesView_Previews: PreviewProvider {
+struct CoursesList_Previews: PreviewProvider {
     static var previews: some View {
-        CoursesView()
+        CourseList()
     }
 }
