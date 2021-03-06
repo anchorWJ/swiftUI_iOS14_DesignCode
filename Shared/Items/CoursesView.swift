@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct CoursesView: View {
+    @State var show = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            CourseItem()
+                .frame(width: 335, height: 250)
+            if show {
+                CourseItem()
+                    .transition(.move(edge: .top))
+                    .zIndex(1)
+                    .edgesIgnoringSafeArea(.all)
+            }
+        }
+        .onTapGesture {
+            withAnimation(.spring()) {
+                show.toggle()
+            }
+        }
+        //.animation(.spring())
     }
 }
 
