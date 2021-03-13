@@ -15,20 +15,20 @@ struct CoursesView: View {
         ZStack {
             ScrollView {
                 VStack(spacing: 20) {
-                    CourseItem()
-                        .matchedGeometryEffect(
-                            id: "Card", in: namespace, isSource: !show
-                        )
-                        .frame(width: 335, height: 250)
-                    CourseItem()
-                        .frame(width: 335, height: 250)
+                    ForEach(courses) { item in
+                        CourseItem(course: item)
+                            .matchedGeometryEffect(
+                                id: item.id, in: namespace, isSource: !show
+                            )
+                            .frame(width: 335, height: 250)
+                    }
                 }
                 .frame(maxWidth: .infinity)
             }
             if show {
                 ScrollView {
-                    CourseItem()
-                        .matchedGeometryEffect(id: "Card", in: namespace)
+                    CourseItem(course: courses[0])
+                        .matchedGeometryEffect(id: courses[2].id, in: namespace)
                         .frame(height: 300)
                     VStack {
                         ForEach(0 ..< 20) { item in

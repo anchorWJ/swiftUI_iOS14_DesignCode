@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		19904597A326600DD4E12B4F /* Pods_SwiftUI_DesignCode__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF91830957628940560FDEF /* Pods_SwiftUI_DesignCode__iOS_.framework */; };
 		9179B8E997D5C9A142CA6BD2 /* Pods_SwiftUI_DesignCode__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ACCBBD3ED8C7B89F77012B /* Pods_SwiftUI_DesignCode__macOS_.framework */; };
+		95197C4925FCE506000A8DB0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95197C4825FCE506000A8DB0 /* Course.swift */; };
+		95197C4A25FCE506000A8DB0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95197C4825FCE506000A8DB0 /* Course.swift */; };
 		954DA38B25EB87C100E7BA28 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA38A25EB87C100E7BA28 /* Tests_iOS.swift */; };
 		954DA39625EB87C100E7BA28 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA39525EB87C100E7BA28 /* Tests_macOS.swift */; };
 		954DA39825EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 954DA36C25EB87BF00E7BA28 /* SwiftUI_DesignCode.xcdatamodeld */; };
@@ -52,6 +54,7 @@
 		0EFA20DA033F4EC11BA964CF /* Pods-SwiftUI DesignCode (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI DesignCode (iOS).release.xcconfig"; path = "Target Support Files/Pods-SwiftUI DesignCode (iOS)/Pods-SwiftUI DesignCode (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		3E98BCE57B65F127B0CCB6F6 /* Pods-SwiftUI DesignCode (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI DesignCode (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI DesignCode (macOS)/Pods-SwiftUI DesignCode (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		4CF91830957628940560FDEF /* Pods_SwiftUI_DesignCode__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_DesignCode__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95197C4825FCE506000A8DB0 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		954DA36D25EB87BF00E7BA28 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		954DA36E25EB87BF00E7BA28 /* SwiftUI_DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DesignCodeApp.swift; sourceTree = "<group>"; };
 		954DA36F25EB87BF00E7BA28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +136,7 @@
 				9580ADEA25EFBBCD0051DBC9 /* Items */,
 				954DA3D125EB999000E7BA28 /* CourseList.swift */,
 				9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */,
+				95197C4825FCE506000A8DB0 /* Course.swift */,
 				954DA37125EB87C100E7BA28 /* Assets.xcassets */,
 				954DA36C25EB87BF00E7BA28 /* SwiftUI_DesignCode.xcdatamodeld */,
 			);
@@ -429,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95197C4925FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39A25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
 				954DA39825EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,
 				954DA3E625EFB40A00E7BA28 /* CourseItem.swift in Sources */,
@@ -444,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95197C4A25FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39B25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
 				954DA39925EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,
 				954DA3E725EFB40A00E7BA28 /* CourseItem.swift in Sources */,
