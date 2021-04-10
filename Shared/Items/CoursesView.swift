@@ -15,26 +15,35 @@ struct CoursesView: View {
     
     var body: some View {
         ZStack {
-            ScrollView {
-                VStack(spacing: 20) {
+            ScrollView(.horizontal) {
+                LazyHGrid(
+                    rows: [GridItem(.adaptive(minimum: 125), spacing: 70)],
+                    spacing: 16
+                ) {
                     ForEach(courses) { item in
-                        CourseItem(course: item)
-                            .matchedGeometryEffect(
-                                id: item.id, in: namespace, isSource: !show
-                            )
-                            .frame(width: 335, height: 250)
-                            .onTapGesture {
-                                withAnimation(.spring()) {
-                                    show.toggle()
-                                    selectedItem = item
-                                    isDisabled = true
+                        VStack {
+                            CourseItem(course: item)
+                                .matchedGeometryEffect(
+                                    id: item.id, in: namespace, isSource: !show
+                                )
+                                .frame(width: 200, height: 200)
+                                .onTapGesture {
+                                    withAnimation(.spring()) {
+                                        show.toggle()
+                                        selectedItem = item
+                                        isDisabled = true
+                                    }
                                 }
-                            }
-                            .disabled(isDisabled)
+                                .disabled(isDisabled)
+                        }
+                       
                     }
                 }
+                .padding(16)
                 .frame(maxWidth: .infinity)
             }
+          
+          
             if selectedItem != nil {
                 ScrollView {
                     CourseItem(course: selectedItem!)
