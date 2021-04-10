@@ -29,6 +29,8 @@
 		954DA3DA25EB9C0100E7BA28 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA3D825EB9C0100E7BA28 /* Sidebar.swift */; };
 		954DA3E625EFB40A00E7BA28 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA3E525EFB40A00E7BA28 /* CourseItem.swift */; };
 		954DA3E725EFB40A00E7BA28 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA3E525EFB40A00E7BA28 /* CourseItem.swift */; };
+		9561D0892621D3D2005B2E2F /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D0882621D3D2005B2E2F /* CloseButton.swift */; };
+		9561D08A2621D3D2005B2E2F /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D0882621D3D2005B2E2F /* CloseButton.swift */; };
 		9580ADF425EFBC3D0051DBC9 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */; };
 		9580ADF525EFBC3D0051DBC9 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,7 @@
 		954DA3D125EB999000E7BA28 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		954DA3D825EB9C0100E7BA28 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		954DA3E525EFB40A00E7BA28 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		9561D0882621D3D2005B2E2F /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoursesView.swift; path = Items/CoursesView.swift; sourceTree = "<group>"; };
 		A6BBBB1913BD853A0107488A /* Pods-SwiftUI DesignCode (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI DesignCode (macOS).release.xcconfig"; path = "Target Support Files/Pods-SwiftUI DesignCode (macOS)/Pods-SwiftUI DesignCode (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		E35EF37ACD50BF5832775A02 /* Pods-SwiftUI DesignCode (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI DesignCode (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI DesignCode (iOS)/Pods-SwiftUI DesignCode (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +140,7 @@
 				9580ADEA25EFBBCD0051DBC9 /* Items */,
 				954DA3D125EB999000E7BA28 /* CourseList.swift */,
 				9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */,
+				9561D0882621D3D2005B2E2F /* CloseButton.swift */,
 				954DA37125EB87C100E7BA28 /* Assets.xcassets */,
 				954DA36C25EB87BF00E7BA28 /* SwiftUI_DesignCode.xcdatamodeld */,
 			);
@@ -441,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9561D0892621D3D2005B2E2F /* CloseButton.swift in Sources */,
 				95197C4925FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39A25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
 				954DA39825EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,
@@ -457,6 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9561D08A2621D3D2005B2E2F /* CloseButton.swift in Sources */,
 				95197C4A25FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39B25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
 				954DA39925EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,
