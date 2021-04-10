@@ -133,10 +133,10 @@
 			children = (
 				954DA36E25EB87BF00E7BA28 /* SwiftUI_DesignCodeApp.swift */,
 				9580ADE925EFB9710051DBC9 /* Navigation */,
+				95A278ED262142AF00293E0D /* Model */,
 				9580ADEA25EFBBCD0051DBC9 /* Items */,
 				954DA3D125EB999000E7BA28 /* CourseList.swift */,
 				9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */,
-				95197C4825FCE506000A8DB0 /* Course.swift */,
 				954DA37125EB87C100E7BA28 /* Assets.xcassets */,
 				954DA36C25EB87BF00E7BA28 /* SwiftUI_DesignCode.xcdatamodeld */,
 			);
@@ -205,6 +205,14 @@
 				954DA3CA25EB976600E7BA28 /* CourseRow.swift */,
 			);
 			path = Items;
+			sourceTree = "<group>";
+		};
+		95A278ED262142AF00293E0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95197C4825FCE506000A8DB0 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C05267901D41A95FF12BF561 /* Pods */ = {
