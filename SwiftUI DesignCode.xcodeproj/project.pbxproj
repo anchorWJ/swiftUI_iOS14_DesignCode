@@ -11,6 +11,24 @@
 		9179B8E997D5C9A142CA6BD2 /* Pods_SwiftUI_DesignCode__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ACCBBD3ED8C7B89F77012B /* Pods_SwiftUI_DesignCode__macOS_.framework */; };
 		95197C4925FCE506000A8DB0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95197C4825FCE506000A8DB0 /* Course.swift */; };
 		95197C4A25FCE506000A8DB0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95197C4825FCE506000A8DB0 /* Course.swift */; };
+		95451FD7262AAFEB00E8DCED /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FD6262AAFEB00E8DCED /* CourseDetail.swift */; };
+		95451FD8262AAFEB00E8DCED /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FD6262AAFEB00E8DCED /* CourseDetail.swift */; };
+		95451FE3262ABCDA00E8DCED /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDD262ABCDA00E8DCED /* Livestream.swift */; };
+		95451FE4262ABCDA00E8DCED /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDD262ABCDA00E8DCED /* Livestream.swift */; };
+		95451FE5262ABCDA00E8DCED /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDE262ABCDA00E8DCED /* Download.swift */; };
+		95451FE6262ABCDA00E8DCED /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDE262ABCDA00E8DCED /* Download.swift */; };
+		95451FE7262ABCDA00E8DCED /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDF262ABCDA00E8DCED /* LivestreamSection.swift */; };
+		95451FE8262ABCDA00E8DCED /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDF262ABCDA00E8DCED /* LivestreamSection.swift */; };
+		95451FE9262ABCDA00E8DCED /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FE0262ABCDA00E8DCED /* CourseSection.swift */; };
+		95451FEA262ABCDA00E8DCED /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FE0262ABCDA00E8DCED /* CourseSection.swift */; };
+		95451FEB262ABCDA00E8DCED /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FE1262ABCDA00E8DCED /* Tutorial.swift */; };
+		95451FEC262ABCDA00E8DCED /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FE1262ABCDA00E8DCED /* Tutorial.swift */; };
+		95451FED262ABCDA00E8DCED /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FE2262ABCDA00E8DCED /* TutorialSection.swift */; };
+		95451FEE262ABCDA00E8DCED /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FE2262ABCDA00E8DCED /* TutorialSection.swift */; };
+		95451FF4262ABCE200E8DCED /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FF3262ABCE200E8DCED /* GradientModel.swift */; };
+		95451FF5262ABCE200E8DCED /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FF3262ABCE200E8DCED /* GradientModel.swift */; };
+		95451FFB262AFAC500E8DCED /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FFA262AFAC500E8DCED /* VisualEffectBlur.swift */; };
+		95452001262AFAD900E8DCED /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95452000262AFAD900E8DCED /* VisualEffectBlur.swift */; };
 		954DA38B25EB87C100E7BA28 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA38A25EB87C100E7BA28 /* Tests_iOS.swift */; };
 		954DA39625EB87C100E7BA28 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA39525EB87C100E7BA28 /* Tests_macOS.swift */; };
 		954DA39825EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 954DA36C25EB87BF00E7BA28 /* SwiftUI_DesignCode.xcdatamodeld */; };
@@ -57,6 +75,16 @@
 		3E98BCE57B65F127B0CCB6F6 /* Pods-SwiftUI DesignCode (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI DesignCode (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI DesignCode (macOS)/Pods-SwiftUI DesignCode (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		4CF91830957628940560FDEF /* Pods_SwiftUI_DesignCode__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_DesignCode__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95197C4825FCE506000A8DB0 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		95451FD6262AAFEB00E8DCED /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
+		95451FDD262ABCDA00E8DCED /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Livestream.swift; path = "../../../SwiftUI iOS 14/Project files/Model/Livestream.swift"; sourceTree = "<group>"; };
+		95451FDE262ABCDA00E8DCED /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = "../../../SwiftUI iOS 14/Project files/Model/Download.swift"; sourceTree = "<group>"; };
+		95451FDF262ABCDA00E8DCED /* LivestreamSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LivestreamSection.swift; path = "../../../SwiftUI iOS 14/Project files/Model/LivestreamSection.swift"; sourceTree = "<group>"; };
+		95451FE0262ABCDA00E8DCED /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseSection.swift; path = "../../../SwiftUI iOS 14/Project files/Model/CourseSection.swift"; sourceTree = "<group>"; };
+		95451FE1262ABCDA00E8DCED /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tutorial.swift; path = "../../../SwiftUI iOS 14/Project files/Model/Tutorial.swift"; sourceTree = "<group>"; };
+		95451FE2262ABCDA00E8DCED /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialSection.swift; path = "../../../SwiftUI iOS 14/Project files/Model/TutorialSection.swift"; sourceTree = "<group>"; };
+		95451FF3262ABCE200E8DCED /* GradientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientModel.swift; path = "../../../SwiftUI iOS 14/Project files/Model/GradientModel.swift"; sourceTree = "<group>"; };
+		95451FFA262AFAC500E8DCED /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisualEffectBlur.swift; path = "../../SwiftUI iOS 14/Project files/iOS/VisualEffectBlur.swift"; sourceTree = "<group>"; };
+		95452000262AFAD900E8DCED /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisualEffectBlur.swift; path = "../../SwiftUI iOS 14/Project files/macOS/VisualEffectBlur.swift"; sourceTree = "<group>"; };
 		954DA36D25EB87BF00E7BA28 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		954DA36E25EB87BF00E7BA28 /* SwiftUI_DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DesignCodeApp.swift; sourceTree = "<group>"; };
 		954DA36F25EB87BF00E7BA28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +168,7 @@
 				9580ADEA25EFBBCD0051DBC9 /* Items */,
 				954DA3D125EB999000E7BA28 /* CourseList.swift */,
 				9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */,
+				95451FD6262AAFEB00E8DCED /* CourseDetail.swift */,
 				9561D0882621D3D2005B2E2F /* CloseButton.swift */,
 				954DA37125EB87C100E7BA28 /* Assets.xcassets */,
 				954DA36C25EB87BF00E7BA28 /* SwiftUI_DesignCode.xcdatamodeld */,
@@ -161,6 +190,7 @@
 		954DA37825EB87C100E7BA28 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				95451FFA262AFAC500E8DCED /* VisualEffectBlur.swift */,
 				954DA37925EB87C100E7BA28 /* Info.plist */,
 			);
 			path = iOS;
@@ -169,6 +199,7 @@
 		954DA37F25EB87C100E7BA28 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				95452000262AFAD900E8DCED /* VisualEffectBlur.swift */,
 				954DA38025EB87C100E7BA28 /* Info.plist */,
 				954DA38125EB87C100E7BA28 /* macOS.entitlements */,
 			);
@@ -214,6 +245,13 @@
 		95A278ED262142AF00293E0D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				95451FF3262ABCE200E8DCED /* GradientModel.swift */,
+				95451FE0262ABCDA00E8DCED /* CourseSection.swift */,
+				95451FDE262ABCDA00E8DCED /* Download.swift */,
+				95451FDD262ABCDA00E8DCED /* Livestream.swift */,
+				95451FDF262ABCDA00E8DCED /* LivestreamSection.swift */,
+				95451FE1262ABCDA00E8DCED /* Tutorial.swift */,
+				95451FE2262ABCDA00E8DCED /* TutorialSection.swift */,
 				95197C4825FCE506000A8DB0 /* Course.swift */,
 			);
 			path = Model;
@@ -449,12 +487,21 @@
 				95197C4925FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39A25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
 				954DA39825EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,
+				95451FFB262AFAC500E8DCED /* VisualEffectBlur.swift in Sources */,
+				95451FE9262ABCDA00E8DCED /* CourseSection.swift in Sources */,
 				954DA3E625EFB40A00E7BA28 /* CourseItem.swift in Sources */,
 				9580ADF425EFBC3D0051DBC9 /* CoursesView.swift in Sources */,
 				954DA39C25EB87C100E7BA28 /* ContentView.swift in Sources */,
+				95451FE3262ABCDA00E8DCED /* Livestream.swift in Sources */,
+				95451FD7262AAFEB00E8DCED /* CourseDetail.swift in Sources */,
 				954DA3CB25EB976600E7BA28 /* CourseRow.swift in Sources */,
 				954DA3D225EB999000E7BA28 /* CourseList.swift in Sources */,
+				95451FE7262ABCDA00E8DCED /* LivestreamSection.swift in Sources */,
+				95451FEB262ABCDA00E8DCED /* Tutorial.swift in Sources */,
+				95451FED262ABCDA00E8DCED /* TutorialSection.swift in Sources */,
 				954DA3D925EB9C0100E7BA28 /* Sidebar.swift in Sources */,
+				95451FE5262ABCDA00E8DCED /* Download.swift in Sources */,
+				95451FF4262ABCE200E8DCED /* GradientModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,12 +513,21 @@
 				95197C4A25FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39B25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
 				954DA39925EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,
+				95452001262AFAD900E8DCED /* VisualEffectBlur.swift in Sources */,
+				95451FEA262ABCDA00E8DCED /* CourseSection.swift in Sources */,
 				954DA3E725EFB40A00E7BA28 /* CourseItem.swift in Sources */,
 				9580ADF525EFBC3D0051DBC9 /* CoursesView.swift in Sources */,
 				954DA39D25EB87C100E7BA28 /* ContentView.swift in Sources */,
+				95451FE4262ABCDA00E8DCED /* Livestream.swift in Sources */,
+				95451FD8262AAFEB00E8DCED /* CourseDetail.swift in Sources */,
 				954DA3CC25EB976600E7BA28 /* CourseRow.swift in Sources */,
 				954DA3D325EB999000E7BA28 /* CourseList.swift in Sources */,
+				95451FE8262ABCDA00E8DCED /* LivestreamSection.swift in Sources */,
+				95451FEC262ABCDA00E8DCED /* Tutorial.swift in Sources */,
+				95451FEE262ABCDA00E8DCED /* TutorialSection.swift in Sources */,
 				954DA3DA25EB9C0100E7BA28 /* Sidebar.swift in Sources */,
+				95451FE6262ABCDA00E8DCED /* Download.swift in Sources */,
+				95451FF5262ABCE200E8DCED /* GradientModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
