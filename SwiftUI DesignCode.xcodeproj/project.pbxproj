@@ -12,6 +12,8 @@
 		95197C4925FCE506000A8DB0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95197C4825FCE506000A8DB0 /* Course.swift */; };
 		95197C4A25FCE506000A8DB0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95197C4825FCE506000A8DB0 /* Course.swift */; };
 		95228356263401DD00255E11 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95228355263401DD00255E11 /* TabBar.swift */; };
+		9523FEC62634370F0054F390 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523FEC52634370F0054F390 /* CourseSectionDetail.swift */; };
+		9523FEC72634370F0054F390 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523FEC52634370F0054F390 /* CourseSectionDetail.swift */; };
 		95451FD7262AAFEB00E8DCED /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FD6262AAFEB00E8DCED /* CourseDetail.swift */; };
 		95451FD8262AAFEB00E8DCED /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FD6262AAFEB00E8DCED /* CourseDetail.swift */; };
 		95451FE3262ABCDA00E8DCED /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDD262ABCDA00E8DCED /* Livestream.swift */; };
@@ -77,6 +79,7 @@
 		4CF91830957628940560FDEF /* Pods_SwiftUI_DesignCode__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_DesignCode__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95197C4825FCE506000A8DB0 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		95228355263401DD00255E11 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		9523FEC52634370F0054F390 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
 		95451FD6262AAFEB00E8DCED /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		95451FDD262ABCDA00E8DCED /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Livestream.swift; path = "../../../SwiftUI iOS 14/Project files/Model/Livestream.swift"; sourceTree = "<group>"; };
 		95451FDE262ABCDA00E8DCED /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = "../../../SwiftUI iOS 14/Project files/Model/Download.swift"; sourceTree = "<group>"; };
@@ -172,6 +175,7 @@
 				95228355263401DD00255E11 /* TabBar.swift */,
 				9580ADF325EFBC3D0051DBC9 /* CoursesView.swift */,
 				95451FD6262AAFEB00E8DCED /* CourseDetail.swift */,
+				9523FEC52634370F0054F390 /* CourseSectionDetail.swift */,
 				9561D0882621D3D2005B2E2F /* CloseButton.swift */,
 				954DA37125EB87C100E7BA28 /* Assets.xcassets */,
 				954DA36C25EB87BF00E7BA28 /* SwiftUI_DesignCode.xcdatamodeld */,
@@ -489,6 +493,7 @@
 				9561D0892621D3D2005B2E2F /* CloseButton.swift in Sources */,
 				95197C4925FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39A25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
+				9523FEC62634370F0054F390 /* CourseSectionDetail.swift in Sources */,
 				954DA39825EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,
 				95451FFB262AFAC500E8DCED /* VisualEffectBlur.swift in Sources */,
 				95451FE9262ABCDA00E8DCED /* CourseSection.swift in Sources */,
@@ -514,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9561D08A2621D3D2005B2E2F /* CloseButton.swift in Sources */,
+				9523FEC72634370F0054F390 /* CourseSectionDetail.swift in Sources */,
 				95197C4A25FCE506000A8DB0 /* Course.swift in Sources */,
 				954DA39B25EB87C100E7BA28 /* SwiftUI_DesignCodeApp.swift in Sources */,
 				954DA39925EB87C100E7BA28 /* SwiftUI_DesignCode.xcdatamodeld in Sources */,

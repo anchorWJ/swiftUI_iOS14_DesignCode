@@ -36,7 +36,7 @@ struct CourseDetail: View {
                     ForEach(courseSections) { item in
                         CourseRow(item: item)
                             .sheet(isPresented: $showModal) {
-                                CourseList()
+                                CourseSectionDetail()
                             }
                             .onTapGesture {
                                 showModal = true
