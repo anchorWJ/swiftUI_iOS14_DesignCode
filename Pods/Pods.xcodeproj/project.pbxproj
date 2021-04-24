@@ -20,7 +20,7 @@
 		3261E5A5395F45780622405F504B2804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38B6B88D9FB9F4FFB984BDB6D8DC2751 /* Pods-SwiftUI DesignCode (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI DesignCode (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C06C9DB0B9CE30D71D107015B280067 /* Pods-SwiftUI DesignCode (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI DesignCode (iOS)-Info.plist"; sourceTree = "<group>"; };
-		45C7A8D27599C136F1455BB00C20D2FA /* Pods_SwiftUI_DesignCode__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftUI_DesignCode__iOS_.framework; path = "Pods-SwiftUI DesignCode (iOS).framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C7A8D27599C136F1455BB00C20D2FA /* Pods_SwiftUI_DesignCode__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_DesignCode__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B541469FEC3554171EBA7DDF4F2A4EA /* Pods-SwiftUI DesignCode (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI DesignCode (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
 		53B165DBD7768DABF3FD71353ECC0D93 /* Pods-SwiftUI DesignCode (macOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI DesignCode (macOS).modulemap"; sourceTree = "<group>"; };
 		5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
@@ -31,10 +31,10 @@
 		7CB5BB4D287E311D3C67866A509715E4 /* Pods-SwiftUI DesignCode (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI DesignCode (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		874A6E6C234BECFA372EDDE10501B751 /* Pods-SwiftUI DesignCode (macOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI DesignCode (macOS)-dummy.m"; sourceTree = "<group>"; };
 		8A1B97F2DBE61BBE0661ED3897207046 /* Pods-SwiftUI DesignCode (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI DesignCode (macOS).debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A906944B4160C3F0B27436A3967B8647 /* Pods-SwiftUI DesignCode (macOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI DesignCode (macOS)-Info.plist"; sourceTree = "<group>"; };
 		B4219EEAE4068D1D5205571573E6FC60 /* Pods-SwiftUI DesignCode (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI DesignCode (iOS).modulemap"; sourceTree = "<group>"; };
-		E3F5186EEF826ED66999A04DE493D016 /* Pods_SwiftUI_DesignCode__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftUI_DesignCode__macOS_.framework; path = "Pods-SwiftUI DesignCode (macOS).framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F5186EEF826ED66999A04DE493D016 /* Pods_SwiftUI_DesignCode__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_DesignCode__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAADAA84D177B63C77C03F4EA208C71B /* Pods-SwiftUI DesignCode (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI DesignCode (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		F6D0C328DD725A8E87D65B5573280C4E /* Pods-SwiftUI DesignCode (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI DesignCode (iOS)-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,7 +209,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -477,7 +477,6 @@
 			baseConfigurationReference = 6CBC9AEBEB2125164C55A98134057501 /* Pods-SwiftUI DesignCode (macOS).release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -514,7 +513,6 @@
 			baseConfigurationReference = 8A1B97F2DBE61BBE0661ED3897207046 /* Pods-SwiftUI DesignCode (macOS).debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";

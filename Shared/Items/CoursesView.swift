@@ -10,13 +10,15 @@ import SwiftUI
 struct CoursesView: View {
     @State var show = false
     @Namespace var namespace
+    @Namespace var namespace2
     @State var selectedItem: Course? = nil
     @State var isDisabled = false
     
     var body: some View {
         ZStack {
             #if os(iOS)
-            conten
+            content
+                .navigationBarHidden(true)
             fullContent
                 .background(VisualEffectBlur(blurStyle: .dark).edgesIgnoringSafeArea(.all))
             #else
@@ -25,43 +27,67 @@ struct CoursesView: View {
                 .background(VisualEffectBlur().edgesIgnoringSafeArea(.all))
             #endif
         }
+        .navigationTitle("Courses")
     }
     
-    var conten: some View {
+    var content: some View {
         ScrollView(.vertical) {
-            LazyVGrid(
-                columns: Array(repeating: .init(.flexible(), spacing: 16), count: 2),
-                spacing: 16
-             ) {
-                ForEach(courses) { item in
-                    VStack {
-                        CourseItem(course: item)
-                            .matchedGeometryEffect(
-                                id: item.id, in: namespace, isSource: !show
-                            )
-                            .frame(width: 200, height: 200)
-                            .onTapGesture {
-                                withAnimation(
-                                    .spring(
-                                        response: 0.5,
-                                        dampingFraction: 0.7,
-                                        blendDuration: 0
-                                    )
-                                ) {
-                                    show.toggle()
-                                    selectedItem = item
-                                    isDisabled = true
+            VStack(spacing: 0) {
+                Text("Courses")
+                    .font(.largeTitle)
+                    .bold()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 16)
+                    .padding(.top, 54)
+            }
+            
+                LazyVGrid(
+                    columns: Array(repeating: .init(.flexible(), spacing: 16), count: 2),
+                    spacing: 16
+                ) {
+                    ForEach(courses) { item in
+                        VStack {
+                            CourseItem(course: item)
+                                .matchedGeometryEffect(
+                                    id: item.id, in: namespace, isSource: !show
+                                )
+                                .frame(height: 200)
+                                .onTapGesture {
+                                    withAnimation(
+                                        .spring(
+                                            response: 0.5,
+                                            dampingFraction: 0.7,
+                                            blendDuration: 0
+                                        )
+                                    ) {
+                                        show.toggle()
+                                        selectedItem = item
+                                        isDisabled = true
+                                    }
                                 }
-                            }
-                            .disabled(isDisabled)
+                                .disabled(isDisabled)
+                        }
+                        .matchedGeometryEffect(
+                            id: "container\(item.id)", in: namespace, isSource: !show
+                        )
                     }
-                    .matchedGeometryEffect(
-                        id: "container\(item.id)", in: namespace, isSource: !show
-                    )
+                }
+                .padding(16)
+                .frame(maxWidth: .infinity)
+            
+            Text("Latest Sections")
+                .fontWeight(.semibold)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+            
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 240))]) {
+                ForEach(courseSections) { item in
+                    NavigationLink(destination: CourseDetail(nameSpace: namespace2)) {
+                        CourseRow(item: item)
+                    }
                 }
             }
-            .padding(16)
-            .frame(maxWidth: .infinity)
+            .padding()
         }
         .zIndex(1)
     }
@@ -73,7 +99,7 @@ struct CoursesView: View {
                 CourseDetail(course: selectedItem!, nameSpace: namespace)
 
                 CloseButton()
-                    .padding(.trailing, 16)
+                    .padding(16)
                     .onTapGesture {
                         withAnimation(
                             .spring()) {
