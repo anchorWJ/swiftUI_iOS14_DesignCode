@@ -29,7 +29,6 @@ struct Sidebar: View {
                     }
                 }
             #endif
-            CourseList()
         }
     }
     var content: some View {
