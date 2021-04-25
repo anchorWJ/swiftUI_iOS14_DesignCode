@@ -13,7 +13,7 @@ struct CourseDetail: View {
     #if os(iOS)
     var cornerRadius: CGFloat = 10
     #else
-    var corRadius: CGFloat = 0
+    var cornerRadius: CGFloat = 0
     #endif
     @State var showModal = false
     

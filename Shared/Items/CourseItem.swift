@@ -12,7 +12,7 @@ struct CourseItem: View {
     #if os(iOS)
     var cornerRadius: CGFloat = 22
     #else
-    var corRadius: CGFloat = 10
+    var cornerRadius: CGFloat = 10
     #endif
     
     var body: some View {
