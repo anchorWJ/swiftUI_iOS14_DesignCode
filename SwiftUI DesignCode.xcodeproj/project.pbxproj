@@ -14,6 +14,16 @@
 		95228356263401DD00255E11 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95228355263401DD00255E11 /* TabBar.swift */; };
 		9523FEC62634370F0054F390 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523FEC52634370F0054F390 /* CourseSectionDetail.swift */; };
 		9523FEC72634370F0054F390 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523FEC52634370F0054F390 /* CourseSectionDetail.swift */; };
+		9523FED2263522B40054F390 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9523FED1263522B40054F390 /* WidgetKit.framework */; };
+		9523FED4263522B40054F390 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9523FED3263522B40054F390 /* SwiftUI.framework */; };
+		9523FED7263522B40054F390 /* DesignCodeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523FED6263522B40054F390 /* DesignCodeWidget.swift */; };
+		9523FEDA263522B70054F390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9523FED9263522B70054F390 /* Assets.xcassets */; };
+		9523FEDC263522B70054F390 /* DesignCodeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9523FED8263522B40054F390 /* DesignCodeWidget.intentdefinition */; };
+		9523FEDD263522B70054F390 /* DesignCodeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9523FED8263522B40054F390 /* DesignCodeWidget.intentdefinition */; };
+		9523FEE0263522B70054F390 /* DesignCodeWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9523FED0263522B40054F390 /* DesignCodeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9523FEEA26352BFC0054F390 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DA3CA25EB976600E7BA28 /* CourseRow.swift */; };
+		9523FEF026352C240054F390 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FE0262ABCDA00E8DCED /* CourseSection.swift */; };
+		9523FEF626352DD00054F390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954DA37125EB87C100E7BA28 /* Assets.xcassets */; };
 		95451FD7262AAFEB00E8DCED /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FD6262AAFEB00E8DCED /* CourseDetail.swift */; };
 		95451FD8262AAFEB00E8DCED /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FD6262AAFEB00E8DCED /* CourseDetail.swift */; };
 		95451FE3262ABCDA00E8DCED /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95451FDD262ABCDA00E8DCED /* Livestream.swift */; };
@@ -57,6 +67,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9523FEDE263522B70054F390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954DA36725EB87BF00E7BA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9523FECF263522B40054F390;
+			remoteInfo = DesignCodeWidgetExtension;
+		};
 		954DA38725EB87C100E7BA28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 954DA36725EB87BF00E7BA28 /* Project object */;
@@ -73,6 +90,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9523FEE1263522B70054F390 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9523FEE0263522B70054F390 /* DesignCodeWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0EFA20DA033F4EC11BA964CF /* Pods-SwiftUI DesignCode (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI DesignCode (iOS).release.xcconfig"; path = "Target Support Files/Pods-SwiftUI DesignCode (iOS)/Pods-SwiftUI DesignCode (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		3E98BCE57B65F127B0CCB6F6 /* Pods-SwiftUI DesignCode (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI DesignCode (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI DesignCode (macOS)/Pods-SwiftUI DesignCode (macOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +111,13 @@
 		95197C4825FCE506000A8DB0 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		95228355263401DD00255E11 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		9523FEC52634370F0054F390 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
+		9523FED0263522B40054F390 /* DesignCodeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DesignCodeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9523FED1263522B40054F390 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9523FED3263522B40054F390 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9523FED6263522B40054F390 /* DesignCodeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeWidget.swift; sourceTree = "<group>"; };
+		9523FED8263522B40054F390 /* DesignCodeWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DesignCodeWidget.intentdefinition; sourceTree = "<group>"; };
+		9523FED9263522B70054F390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9523FEDB263522B70054F390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95451FD6262AAFEB00E8DCED /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		95451FDD262ABCDA00E8DCED /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Livestream.swift; path = "../../../SwiftUI iOS 14/Project files/Model/Livestream.swift"; sourceTree = "<group>"; };
 		95451FDE262ABCDA00E8DCED /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = "../../../SwiftUI iOS 14/Project files/Model/Download.swift"; sourceTree = "<group>"; };
@@ -117,6 +155,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9523FECD263522B40054F390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9523FED4263522B40054F390 /* SwiftUI.framework in Frameworks */,
+				9523FED2263522B40054F390 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		954DA37325EB87C100E7BA28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +197,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9523FED5263522B40054F390 /* DesignCodeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9523FED6263522B40054F390 /* DesignCodeWidget.swift */,
+				9523FED8263522B40054F390 /* DesignCodeWidget.intentdefinition */,
+				9523FED9263522B70054F390 /* Assets.xcassets */,
+				9523FEDB263522B70054F390 /* Info.plist */,
+			);
+			path = DesignCodeWidget;
+			sourceTree = "<group>";
+		};
 		954DA36625EB87BF00E7BA28 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +216,7 @@
 				954DA37F25EB87C100E7BA28 /* macOS */,
 				954DA38925EB87C100E7BA28 /* Tests iOS */,
 				954DA39425EB87C100E7BA28 /* Tests macOS */,
+				9523FED5263522B40054F390 /* DesignCodeWidget */,
 				954DA37725EB87C100E7BA28 /* Products */,
 				C05267901D41A95FF12BF561 /* Pods */,
 				CAD732B4308D062F55665B20 /* Frameworks */,
@@ -190,6 +249,7 @@
 				954DA37E25EB87C100E7BA28 /* SwiftUI DesignCode.app */,
 				954DA38625EB87C100E7BA28 /* Tests iOS.xctest */,
 				954DA39125EB87C100E7BA28 /* Tests macOS.xctest */,
+				9523FED0263522B40054F390 /* DesignCodeWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +340,8 @@
 			children = (
 				4CF91830957628940560FDEF /* Pods_SwiftUI_DesignCode__iOS_.framework */,
 				F3ACCBBD3ED8C7B89F77012B /* Pods_SwiftUI_DesignCode__macOS_.framework */,
+				9523FED1263522B40054F390 /* WidgetKit.framework */,
+				9523FED3263522B40054F390 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -287,6 +349,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9523FECF263522B40054F390 /* DesignCodeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9523FEE4263522B70054F390 /* Build configuration list for PBXNativeTarget "DesignCodeWidgetExtension" */;
+			buildPhases = (
+				9523FECC263522B40054F390 /* Sources */,
+				9523FECD263522B40054F390 /* Frameworks */,
+				9523FECE263522B40054F390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignCodeWidgetExtension;
+			productName = DesignCodeWidgetExtension;
+			productReference = 9523FED0263522B40054F390 /* DesignCodeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		954DA37525EB87C100E7BA28 /* SwiftUI DesignCode (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 954DA3A425EB87C100E7BA28 /* Build configuration list for PBXNativeTarget "SwiftUI DesignCode (iOS)" */;
@@ -295,10 +374,12 @@
 				954DA37225EB87C100E7BA28 /* Sources */,
 				954DA37325EB87C100E7BA28 /* Frameworks */,
 				954DA37425EB87C100E7BA28 /* Resources */,
+				9523FEE1263522B70054F390 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9523FEDF263522B70054F390 /* PBXTargetDependency */,
 			);
 			name = "SwiftUI DesignCode (iOS)";
 			productName = "SwiftUI DesignCode (iOS)";
@@ -368,6 +449,9 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					9523FECF263522B40054F390 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					954DA37525EB87C100E7BA28 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -401,11 +485,21 @@
 				954DA37D25EB87C100E7BA28 /* SwiftUI DesignCode (macOS) */,
 				954DA38525EB87C100E7BA28 /* Tests iOS */,
 				954DA39025EB87C100E7BA28 /* Tests macOS */,
+				9523FECF263522B40054F390 /* DesignCodeWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9523FECE263522B40054F390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9523FEF626352DD00054F390 /* Assets.xcassets in Resources */,
+				9523FEDA263522B70054F390 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		954DA37425EB87C100E7BA28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,6 +580,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9523FECC263522B40054F390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9523FEF026352C240054F390 /* CourseSection.swift in Sources */,
+				9523FED7263522B40054F390 /* DesignCodeWidget.swift in Sources */,
+				9523FEEA26352BFC0054F390 /* CourseRow.swift in Sources */,
+				9523FEDC263522B70054F390 /* DesignCodeWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		954DA37225EB87C100E7BA28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,6 +610,7 @@
 				954DA3CB25EB976600E7BA28 /* CourseRow.swift in Sources */,
 				954DA3D225EB999000E7BA28 /* CourseList.swift in Sources */,
 				95451FE7262ABCDA00E8DCED /* LivestreamSection.swift in Sources */,
+				9523FEDD263522B70054F390 /* DesignCodeWidget.intentdefinition in Sources */,
 				95451FEB262ABCDA00E8DCED /* Tutorial.swift in Sources */,
 				95451FED262ABCDA00E8DCED /* TutorialSection.swift in Sources */,
 				954DA3D925EB9C0100E7BA28 /* Sidebar.swift in Sources */,
@@ -560,6 +666,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9523FEDF263522B70054F390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9523FECF263522B40054F390 /* DesignCodeWidgetExtension */;
+			targetProxy = 9523FEDE263522B70054F390 /* PBXContainerItemProxy */;
+		};
 		954DA38825EB87C100E7BA28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 954DA37525EB87C100E7BA28 /* SwiftUI DesignCode (iOS) */;
@@ -573,6 +684,53 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9523FEE2263522B70054F390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4447VNCK7;
+				INFOPLIST_FILE = DesignCodeWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchor.SwiftUI-DesignCode.DesignCodeWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9523FEE3263522B70054F390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4447VNCK7;
+				INFOPLIST_FILE = DesignCodeWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchor.SwiftUI-DesignCode.DesignCodeWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		954DA3A225EB87C100E7BA28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -688,6 +846,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E35EF37ACD50BF5832775A02 /* Pods-SwiftUI DesignCode (iOS).debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -711,6 +870,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0EFA20DA033F4EC11BA964CF /* Pods-SwiftUI DesignCode (iOS).release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -873,6 +1033,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9523FEE4263522B70054F390 /* Build configuration list for PBXNativeTarget "DesignCodeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9523FEE2263522B70054F390 /* Debug */,
+				9523FEE3263522B70054F390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		954DA36A25EB87BF00E7BA28 /* Build configuration list for PBXProject "SwiftUI DesignCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
